@@ -1,0 +1,18 @@
+<main class="a-container">
+    <h1>Characters Found</h1>
+    <div id="characters">
+        <div class="all-title">
+            <span>Name</span>
+        </div>
+        <div class="all-characters">
+            {{#each characters}}
+            <a href="/characters/{{this.id}}">
+                <div class="a-character">
+                    <span>{{this.name}}</span>
+                </div>
+            </a>
+            {{/each}}
+        </div>
+    </div>
+    <p><a href="/">Make another search</a></p>
+</main>

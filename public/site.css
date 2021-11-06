@@ -1,0 +1,96 @@
+body {
+    background-image: url("/images/marvel.0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+    margin: 0px;
+    color: wheat;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+input {
+    margin: 10px;
+}
+
+.a-container {
+    max-width: 700px;
+    margin: auto;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.95);
+    min-height: 100vh;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+#searchTerm {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: monospace;
+}
+
+#submit {
+    padding: 5px;
+}
+
+
+#character-image {
+    max-width: 200px;
+    margin: auto;
+    display: block;
+}
+
+.info {
+    padding: 10px;
+    font-size: 20px;
+    font-variant: small-caps;
+
+}
+
+.all-title span{
+    margin-top: 60px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-variant: small-caps;
+    font-size: 20px;
+    font-weight: 700;
+    color: aqua;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: wheat;
+    text-decoration: none;
+}
+
+.a-character {
+    margin-top: 20px;
+    text-decoration: none;
+    
+}
+
+.a-character span{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.frown {
+    font-size: large;
+    font-weight: 900;
+    color: red;
+}
